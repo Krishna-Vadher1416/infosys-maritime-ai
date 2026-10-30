@@ -48,10 +48,11 @@ Milestone1/
     ├── forgot_password_otp.png
     ├── otp_email.png
     ├── user_dashboard.png
-    └── admin_dashboard.png
+    |── admin_dashboard.png
+    |__ admin_login.png
 ```
 
-*Note: Add the screenshots using these filenames, or update the filenames in this README to match your actual files.*
+
 
 ### 5. Prerequisites
 
@@ -125,30 +126,34 @@ The administrator signs in through the separate admin login. The dashboard displ
 - Sensitive configuration is managed through Colab Secrets.
 - The admin dashboard does not expose users' passwords or password hashes.
 
-### 10. Screenshots
 
-Add screenshots of the following application states to the `screenshots/` folder.
 
-#### Login Page
-![Login Page](screenshots/login.png)
+## 10. Application Screenshots
 
-#### Signup Page
-![Signup Page](screenshots/signup.png)
+### 10.1 User Registration
+![User Registration](screenshots/signup.png)
 
-#### Forgot Password — Security Question
+### 10.2 User Login
+![User Login](screenshots/login.png)
+
+### 10.3 Forgot Password — Security Question
 ![Security Question Recovery](screenshots/forgot_password_security_question.png)
 
-#### Forgot Password — Email OTP
+### 10.4 Forgot Password — Email OTP
 ![Email OTP Recovery](screenshots/forgot_password_otp.png)
 
-#### OTP Email
+### 10.5 OTP Email Verification
 ![OTP Email](screenshots/otp_email.png)
 
-#### User Dashboard
+### 10.6 User Dashboard
 ![User Dashboard](screenshots/user_dashboard.png)
 
-#### Admin Dashboard
+### 10.7 Admin Login
+![Admin Login](screenshots/admin_login.png)
+
+### 10.8 Admin Dashboard
 ![Admin Dashboard](screenshots/admin_dashboard.png)
+
 
 ### 11. Testing Checklist
 
